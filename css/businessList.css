@@ -1,10 +1,9 @@
-/****************** 总容器 ******************/
+
 .wrapper{
 	width: 100%;
 	height: 100%;
 }
 
-/****************** header部分 ******************/
 .wrapper header{
 	width: 100%;
 	height: 12vw;
@@ -22,7 +21,7 @@
 	align-items: center;
 }
 
-/****************** 商家列表部分 ******************/
+
 .wrapper .business{
 	width: 100%;
 	margin-top: 12vw;
@@ -40,7 +39,6 @@
 	align-items: center;
 }
 .wrapper .business li .business-img{
-	/*这里设置为相当定位，成为business-img-quantity元素的父元素*/
 	position: relative;
 }
 .wrapper .business li .business-img img{
@@ -58,8 +56,7 @@
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	
-	/*设置成绝对定位，不占文档流空间*/
+
 	position: absolute;
 	right: -1.5vw;
 	top: -1.5vw;
@@ -76,7 +73,7 @@
 	color: #888;
 	margin-top: 2vw;
 }
-/****************** 底部菜单部分 ******************/
+
 .wrapper .footer{
 	width: 100%;
 	height: 14vw;

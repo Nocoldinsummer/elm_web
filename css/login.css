@@ -1,10 +1,9 @@
-/****************** 总容器 ******************/
+
 .wrapper{
 	width: 100%;
 	height: 100%;
 }
 
-/****************** header部分 ******************/
 .wrapper header{
 	width: 100%;
 	height: 12vw;
@@ -22,7 +21,6 @@
 	align-items: center;
 }
 
-/****************** 表单部分 ******************/
 .wrapper .form-box{
 	width: 90%;
 	margin-top: 18vw;
@@ -92,7 +90,6 @@
 	height: 10vw;
 	font-size: 3.8vw;
 	font-weight: 700;
-	/*与上面登陆按钮不同的只有颜色、背景色、边框不同*/
 	color: #666;
 	background-color: #EEE;
 	border: solid 1px #DDD;
@@ -106,7 +103,6 @@
 	height: 10vw;
 	font-size: 3.8vw;
 	font-weight: 700;
-	/*与上面登陆按钮不同的只有颜色、背景色、边框不同*/
 	color: #666;
 	background-color: darkgrey;
 	border: solid 1px #DDD;

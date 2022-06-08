@@ -1,10 +1,10 @@
-/****************** 总容器 ******************/
+
 .wrapper{
 	width: 100%;
 	height: 100%;
 }
 
-/****************** header部分 ******************/
+
 .wrapper header{
 	width: 100%;
 	height: 12vw;
@@ -22,9 +22,8 @@
 	align-items: center;
 }
 
-/****************** 订单信息部分 ******************/
+
 .wrapper .order-info{
-	/*注意这里，不设置高，靠内容撑开。因为地址有可能折行*/
 	width: 100%;
 	margin-top: 12vw;
 	background-color: #0097EF;
@@ -66,7 +65,6 @@
 	border-bottom: solid 1px #DDD;
 }
 
-/****************** 订单明细部分 ******************/
 .wrapper .order-detailed{
 	width: 100%;
 }
@@ -108,7 +106,6 @@
 	font-size: 3.5vw;
 }
 
-/****************** 订单合计部分 ******************/
 .wrapper .total{
 	width: 100%;
 	height: 14vw;

@@ -1,10 +1,10 @@
-/****************** 总容器 ******************/
+
 .wrapper{
 	width: 100%;
 	height: 100%;
 }
 
-/****************** header ******************/
+
 .wrapper header{
 	width: 100%;
 	height: 12vw;
@@ -27,7 +27,7 @@
 	margin-left: 1vw;
 }
 
-/****************** search ******************/
+
 .wrapper .search{
 	width: 100%;
 	height: 13vw;
@@ -53,14 +53,13 @@
 	font-size: 3.5vw;
 	color: #AEAEAE;
 	font-family: "宋体";
-	/*此样式是让文本选中状态无效*/
 	user-select: none;
 }
 .wrapper .search .search-fixed-top .search-box .fa-search{
 	margin-right: 1vw;
 }
 
-/****************** 点餐分类部分 ******************/
+
 .wrapper .foodtype{
 	width: 100%;
 	height: 48vw;
@@ -68,16 +67,13 @@
 	display: flex;
 	flex-wrap: wrap;
 	justify-content: space-around;
-	/*要使用align-content。10个子元素将自动换行为两行，而且两行作为一个整体垂直居中*/
 	align-content: center;
 }
 .wrapper .foodtype li{
-	/*一共10个子元素，通过计算，子元素宽度在16.7 ~ 20 之间，才能保证换两行*/
 	width: 18vw;
 	height: 20vw;
 	
 	display: flex;
-	/*弹性盒子主轴方向设为column，然后仍然是垂直水平方向居中*/
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
@@ -87,7 +83,6 @@
 }
 .wrapper .foodtype li img{
 	width: 12vw;
-	/*视频讲解时高度设置为12vw，实际上设置为10.3vw更佳*/
 	height: 10.3vw;
 }
 .wrapper .foodtype li p{
@@ -95,17 +90,11 @@
 	color: #666;
 }
 
-/****************** 横幅广告部分 ******************/
 .wrapper .banner{
-	/**
-	 * 设置容器宽度95%，然后水平居中，这样两边留白; 
-	 * 这里不能用padding，因为背景图片也会覆盖padding
-	 */
 	width: 95%;
 	margin: 0 auto;
 	height: 29vw;
-	
-	/*此三个样式组合，可以保证背景图片充满整个容器*/
+
 	background-image: url(../img/index_banner.png);
 	background-repeat: no-repeat;
 	background-size: cover;
@@ -128,9 +117,8 @@
 	font-weight: 700;
 }
 
-/****************** 超级会员部分 ******************/
+
 .wrapper .supermember{
-	/*这里也设置容器宽度95%，不能用padding，因为背景色也会充满padding*/
 	width: 95%;
 	margin: 0 auto;
 	height: 11.5vw;
@@ -167,7 +155,6 @@
 	cursor: pointer;
 }
 
-/****************** 推荐商家部分 ******************/
 .wrapper .recommend{
 	width: 100%;
 	height: 14vw;
@@ -185,7 +172,6 @@
 	margin: 0 4vw;
 }
 
-/****************** 推荐方式部分 ******************/
 .wrapper .recommendtype{
 	width: 100%;
 	height: 5vw;
@@ -200,7 +186,6 @@
 	color: #555;
 }
 
-/****************** 推荐商家列表部分 ******************/
 .wrapper .business{
 	width: 100%;
 	margin-bottom: 14vw;
@@ -329,7 +314,6 @@
 	margin-right: 2vw;
 }
 
-/****************** 底部菜单部分 ******************/
 .wrapper .footer{
 	width: 100%;
 	height: 14vw;
@@ -345,7 +329,6 @@
 	align-items: center;
 }
 .wrapper .footer li{
-	/*li本身的尺寸完全由内容撑起*/
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
